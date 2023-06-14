@@ -1,5 +1,9 @@
 # MusicGen Model Card
 
+```sh
+
+```
+
 ## Model details
 
 **Organization developing the model:** The FAIR team of Meta AI.
@@ -10,15 +14,16 @@
 
 **Model type:** MusicGen consists of an EnCodec model for audio tokenization, an auto-regressive language model based on the transformer architecture for music modeling. The model comes in different sizes: 300M, 1.5B and 3.3B parameters ; and two variants: a model trained for text-to-music generation task and a model trained for melody-guided music generation.
 
-**Paper or resources for more information:** More information can be found in the paper [Simple and Controllable Music Generation][arxiv].
+**Paper or resources for more information:** More information can be found in the paper [Simple and Controllable Music Generation](https://arxiv.org/abs/2306.05284).
 
-**Citation details** See [our paper][arxiv]
+**Citation details** See [our paper](https://arxiv.org/abs/2306.05284)
 
 **License** Code is released under MIT, model weights are released under CC-BY-NC 4.0.
 
 **Where to send questions or comments about the model:** Questions and comments about MusicGen can be sent via the [Github repository](https://github.com/facebookresearch/audiocraft) of the project, or by opening an issue.
 
 ## Intended use
+
 **Primary intended use:** The primary use of MusicGen is research on AI-based music generation, including:
 
 - Research efforts, such as probing and better understanding the limitations of generative models to further improve the state of science
@@ -56,7 +61,7 @@ The model was trained on licensed data using the following sources: the [Meta Mu
 
 ## Quantitative analysis
 
-More information can be found in the paper [Simple and Controllable Music Generation][arxiv], in the Experimental Setup section.
+More information can be found in the paper [Simple and Controllable Music Generation](https://arxiv.org/abs/2306.05284), in the Experimental Setup section.
 
 ## Limitations and biases
 
@@ -77,5 +82,3 @@ More information can be found in the paper [Simple and Controllable Music Genera
 **Risks and harms:** Biases and limitations of the model may lead to generation of samples that may be considered as biased, inappropriate or offensive. We believe that providing the code to reproduce the research and train new models will allow to broaden the application to new and more representative data.
 
 **Use cases:** Users must be aware of the biases, limitations and risks of the model. MusicGen is a model developed for artificial intelligence research on controllable music generation. As such, it should not be used for downstream applications without further investigation and mitigation of risks.
-
-[arxiv]: https://arxiv.org/abs/2306.05284
